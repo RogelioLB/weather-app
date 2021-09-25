@@ -11,6 +11,7 @@ border:0;
 border-radius: 8px;
 padding:10px 15px;
 width:fit-content;
+cursor:pointer;
 margin:0 10px 0 0;
 `
 const Icon = styled(FontAwesomeIcon)`

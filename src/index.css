@@ -6,8 +6,10 @@
   padding: 0;
 }
 
-html,#root,.App{
-  height: 100%;
+@media screen and (min-width:768px) {
+  html,#root,.App{
+    height: 100%;
+  }  
 }
 
 body {

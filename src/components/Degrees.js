@@ -16,13 +16,14 @@ align-items: flex-end;
 padding-bottom:2px;
 margin-left: 10px;
 font-size:18px;
+text-transform: capitalize;
 `
 
-const Degrees = ({degrees}) => {
+const Degrees = ({degrees,desc}) => {
     return (
         <Container>
             <Title>{degrees}°C</Title>
-            <Desc>Despejado</Desc>
+            <Desc>{desc}</Desc>
         </Container>
     )
 }
